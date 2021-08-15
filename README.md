@@ -1,1 +1,1 @@
-⚡ Welton Viagens & Turismo
+Welton | Viagens & Turismo
