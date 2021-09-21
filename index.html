@@ -328,6 +328,28 @@
 	<div class="row bit-narrow" data-aos="fade-up">
             <div class="col-full">
                 <p class="lead">
+			<style>
+				.container-travelpayout {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+			</style>
+			<div class="container-travelpayout">
+  <iframe class="responsive-iframe" scrolling="no" frameborder="0" src="//www.travelpayouts.com/widgets/57a4e03d123f2491bbce8509f981e956.html?v=2155"></iframe>
+</div>
 		<iframe scrolling="no" width="" height="460" frameborder="0" src="//www.travelpayouts.com/widgets/57a4e03d123f2491bbce8509f981e956.html?v=2155"></iframe>
                 <!--<script charset="utf-8" src="//www.travelpayouts.com/widgets/57a4e03d123f2491bbce8509f981e956.js?v=2214" async></script>-->
                 </p>
